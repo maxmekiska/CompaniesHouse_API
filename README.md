@@ -33,3 +33,7 @@ The method enrich\_founder(data) will add information to the existing data by re
 The method retrieve\_filings(company id) will retrieve the latest company filings based on the passed in company id.
 
 ![Company filings](resources/5.png)
+
+## Saving data in a .xlsx file
+
+You can save your retrieved data anytime as an xlsx file by using the export\_excel(data) method. The file generated will be named as follows: CompaniesExport.xlsx
