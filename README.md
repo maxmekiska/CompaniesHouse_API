@@ -17,3 +17,21 @@ The filtered data can be enriched with the geographical location of the differen
 
 
 ![Enrich geo location](resources/2.png)
+
+
+![Enrich geo location 2](resources/3.png)
+
+
+## Enriching data with significant owner
+
+The method enrich\_founder(data) will add information to the existing data by retrieving all owners with significant control based on the company id.
+
+
+![Enrich significant owner](resources/4.png)
+
+
+## Retrieve company filings
+
+The method retrieve\_filings(company id) will retrieve the latest company filings based on the passed in company id.
+
+![Company filings](resources/5.png)
