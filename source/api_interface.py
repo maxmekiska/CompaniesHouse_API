@@ -108,7 +108,7 @@ class CHouse:
         if show == True:
             return m
         elif show == False:
-            m.save("CompnayMap.html")
+            m.save("CompanyMap.html")
         
 
     def enrich_founder(self, df: DataFrame) -> None:

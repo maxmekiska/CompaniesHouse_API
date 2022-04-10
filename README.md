@@ -13,7 +13,7 @@ After a successful object creation, it is possible to filter companies after the
 
 ## Creating a company location Map
 
-The filtered data can be enriched with the geographical location of the different companies. This can be achieved by calling the method create\_map(data, display map). The second argument of the method allows the user to specify if the map shall be instantly rendered within a jupyter notebook. Pleae note that the map will be saved within an map.html file if the second argument is set to False.
+The filtered data can be enriched with the geographical location of the different companies. This can be achieved by calling the method create\_map(data, display map). The second argument of the method allows the user to specify if the map shall be instantly rendered within a jupyter notebook. Pleae note that the map will be saved within an CompanyMap.html file if the second argument is set to False.
 
 
 ![Enrich geo location](resources/2.png)
