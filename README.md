@@ -2,6 +2,8 @@
 
 This code serves as a wrapper to interface with the Companies House API. Please create an API key to use this wrappers functionalities. You can crate an API key by following the official instructions: https://developer.company-information.service.gov.uk/get-started
 
+Feel free to use the Jupyter Notebook "API prod.ipynb" as an interface.
+
 
 ## Crating a CHouse object
 
