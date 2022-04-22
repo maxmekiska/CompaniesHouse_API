@@ -5,7 +5,7 @@ This code serves as a wrapper to interface with the Companies House API. Please 
 Feel free to use the Jupyter Notebook "API prod.ipynb" as an interface.
 
 
-## Crating a CHouse object
+## Creating a CHouse object
 
 To interface with the companies house API, a CHouse object needs to be created. This is possible by passing a valid API key string into the CHouse class.
 
