@@ -55,7 +55,7 @@ class CHouse:
                 
         df['Latitude'] = output_lat
         df['Longitude'] = output_lon
-        df['registered_office_address'] = postal_codes
+        #df['registered_office_address'] = postal_codes
         
         return df
 
@@ -76,7 +76,7 @@ class CHouse:
 
         return birth_year, name, residency
         
-    def filter_sic(self, sic_code: int, status: str, index: int) -> DataFrame:
+    def filter_sic(self, sic_code: int, status: str, start_index: int) -> DataFrame:
         url_companies = "https://api.company-information.service.gov.uk/advanced-search/companies?sic_codes={}&start_index={}&company_status={}"
         output = []
         while True:
