@@ -81,7 +81,7 @@ class CHouse:
         output = []
         while True:
             CHouse.api_guard()
-            response = requests.get(url_companies.format(sic_code, index, status),auth=(self.api_key,''))
+            response = requests.get(url_companies.format(sic_code, start_index, status),auth=(self.api_key,''))
             json_search_result = response.text
             search_result = json.JSONDecoder().decode(json_search_result)
             if len(search_result) == 4:
