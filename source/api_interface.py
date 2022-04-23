@@ -87,7 +87,7 @@ class CHouse:
             if len(search_result) == 4:
                 break
             output += search_result['items']
-            index += 20
+            start_index += 20
             df = pd.DataFrame(output)[['company_name', 'company_number', 'company_type', 'date_of_creation', 'registered_office_address', 'sic_codes']]
             df['date_of_creation'] =  pd.to_datetime(df['date_of_creation'], format='%Y-%m-%d')
                                 
