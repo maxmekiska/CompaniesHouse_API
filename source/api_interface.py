@@ -55,7 +55,6 @@ class CHouse:
                 
         df['Latitude'] = output_lat
         df['Longitude'] = output_lon
-        #df['registered_office_address'] = postal_codes
         
         return df
 
