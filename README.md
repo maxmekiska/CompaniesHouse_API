@@ -4,6 +4,9 @@ This code serves as a wrapper to interface with the Companies House API. Please 
 
 Feel free to use the Jupyter Notebook "API prod.ipynb" as an interface.
 
+## Launch virtual Jupyter Notebook
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/maxmekiska/CompaniesHouse_API/main?labpath=API%20prod.ipynb)
 
 ## Creating a CHouse object
 
