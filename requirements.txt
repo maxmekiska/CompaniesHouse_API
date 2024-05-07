@@ -2,5 +2,5 @@ requests==2.31.0
 json5==0.8.5
 pandas==0.25.1
 pgeocode==0.3.0
-tqdm==4.36.1
+tqdm==4.66.3
 folium==0.12.1
